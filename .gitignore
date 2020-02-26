@@ -130,3 +130,6 @@ dmypy.json
 *.yrm
 *.mpr
 *.whl
+*.rar
+*.zip
+*.tar.gz
