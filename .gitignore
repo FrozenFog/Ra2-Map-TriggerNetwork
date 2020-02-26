@@ -125,7 +125,6 @@ dmypy.json
 .pyre/
 
 # else
-*.png
 *.html
 *.map
 *.yrm

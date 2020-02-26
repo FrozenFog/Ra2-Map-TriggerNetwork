@@ -1,10 +1,11 @@
-from iniclass import IniFile
-from IniEnt import IniEnt
-from Logics import Trigger,Event,Action,Variable
+import globalvar as glob
+from Logics import Trigger,Variable
 
 class MapFile:
     triggers = {}
     localvar = {}
+    deltatrigger = glob.triggerInit
+    deltalocal = glob.localInit
 
     def __init__(self):
         self.triggers = {}
@@ -63,14 +64,14 @@ class MapFile:
         return id + "-" + self.triggers[id].name
 
     def GetVarFromID(self, id):
-        return  self.localvar[id].varname;
+        return  "Local-" + id + ":" + self.localvar[id].varname;
 
     def AddLocal(self, id):
         if not id in self.localvar.keys():
             return None
-        self.localvar[id].varcount += 3
+        self.localvar[id].varcount += self.deltalocal
 
     def AddTrigger(self, id):
         if not id in self.triggers.keys():
             return None
-        self.triggers[id].count += 3
+        self.triggers[id].count += self.deltatrigger

@@ -1,0 +1,11 @@
+triggerInit = 3
+localInit = 3
+repul = 8000
+width = 1920
+w_s = str(width) + "px"
+height = 1080
+h_s = str(height) + "px"
+titleend = " trigger network"
+label = False
+drag = True
+isolated = False

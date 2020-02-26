@@ -1,5 +1,4 @@
-from IniEnt import IniEnt
-from IniPair import IniPair
+import globalvar as glob
 
 class Trigger:
 
@@ -12,7 +11,7 @@ class Trigger:
     normal = False
     hard = False
     repeat = 0
-    count = 3
+    count = glob.triggerInit
     events = []
     actions = []
 
@@ -26,6 +25,8 @@ class Trigger:
         self.setlocals = []
         self.readlocals = []
         self.movedtriggers = []
+        self.count = glob.triggerInit
+        self.repeat = 0
 
     def LoadTag(self, strings):
         sl = strings.split(",")
@@ -99,8 +100,9 @@ class Variable:
 
     varname = ""
     varid = ""
-    varcount = 3
+    varcount = glob.localInit
 
     def __init__(self):
-        self.varcount = 0
         self.varname = ""
+        self.varid = ""
+        self.varcount = glob.localInit
