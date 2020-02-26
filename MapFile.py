@@ -9,6 +9,7 @@ class MapFile:
 
     def __init__(self):
         self.triggers = {}
+        self.localvar = {}
 
     def LoadFromIni(self, file):
         ent = file["Triggers"]

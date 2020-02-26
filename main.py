@@ -9,9 +9,7 @@ import globalvar as g
 
 def main(name):
     data = iniclass.IniFile()
-    #path = "E:\\Program Files\\RedAlert2\\AllMap\\mapextract\\expand99\\"
-    #name = "Epsilon A2 Mission Machinehead" + ".map"
-    #filename = path + name
+    #name = path + name
     with open(name, "r") as f:
         lines = f.readlines()
         data.ReadData(lines)
@@ -125,19 +123,31 @@ def SetGlobal(args):
     if "-i" in args:
         g.isolated = True
 
-
-if __name__ == '__main__':
+def Release():
     mapname = input("Map name(include \".map\")\nMust in same directory!(or full path if not):\n")
     args = input("""\n
-Set parameters:
--w [width]\t\t\tSet graph width, default=1920
--h [height]\t\t\tSet graph height, default=1080
--r [repulsion]\t\tSet repulsion, default=8000
--l\t\t\t\t\tShow label on each node, default false
--d\t\t\t\t\tSet each note is NOT dragable, default true
--i\t\t\t\t\tIgnore isolated trigger, default false
-\nLeave it empty will run with default params:\n""")
+    Set parameters:
+    -w [width]\t\t\tSet graph width, default=1920
+    -h [height]\t\t\tSet graph height, default=1080
+    -r [repulsion]\t\tSet repulsion, default=8000
+    -l\t\t\t\t\tShow label on each node, default false
+    -d\t\t\t\t\tSet each note is NOT dragable, default true
+    -i\t\t\t\t\tIgnore isolated trigger, default false
+    \nLeave it empty will run with default params:\n""")
     SetGlobal(args.split(" "))
     main(mapname)
     print("Finished. Press enter to exit.")
     input("")
+
+def Debug():
+    while 1:
+        path = "E:\\Program Files\\RedAlert2\\AllMap\\ra2mission\\ra2\\"
+        mapname = input("name")
+        name = path + mapname + ".map"
+        #SetGlobal(["-l"])
+        main(name)
+
+
+if __name__ == '__main__':
+    #Debug()
+    Release()

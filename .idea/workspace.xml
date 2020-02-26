@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ac490d4-2b13-47ae-a5fc-4df1a1627c1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IniEnt.py" beforeDir="false" afterPath="$PROJECT_DIR$/IniEnt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/MapFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -18,7 +16,7 @@
     <session id="1307597651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -41,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10594" />
+          <entry key="py" value="10785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10594" />
+          <entry key="Python" value="10785" />
         </counts>
       </usages-collector>
     </session>
@@ -56,10 +54,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <state relative-caret-position="595">
+              <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+                <marker date="1582716842779" expanded="true" signature="5374:5494" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,13 +67,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+            <state relative-caret-position="544">
+              <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1582628349599" expanded="true" signature="76:81" ph="..." />
-                <marker date="1582628349599" expanded="true" signature="76:186" ph="..." />
-                <marker date="1582628349599" expanded="true" signature="2566:2572" ph="..." />
+                <marker date="1582696900379" expanded="true" signature="76:81" ph="..." />
+                <marker date="1582696900379" expanded="true" signature="76:186" ph="..." />
+                <marker date="1582696900379" expanded="true" signature="2593:2599" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Logics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1786">
-              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            <state>
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <marker date="1582624949514" expanded="true" signature="41:46" ph="..." />
                 <marker date="1582624949514" expanded="true" signature="41:321" ph="..." />
@@ -102,45 +101,6 @@
                 <marker date="1582624949514" expanded="true" signature="2075:2081" ph="..." />
                 <marker date="1582624949514" expanded="true" signature="2208:2209" ph="..." />
                 <marker date="1582624949514" expanded="true" signature="2208:2214" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iniclass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1581010344755" expanded="true" signature="60:65" ph="..." />
-                <marker date="1581010344755" expanded="true" signature="84:119" ph="..." />
-                <marker date="1581010344755" expanded="true" signature="382:1243" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IniEnt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <marker date="1581069570400" expanded="true" signature="30:35" ph="..." />
-                <marker date="1581069570400" expanded="true" signature="361:407" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IniPair.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding>
-                <marker date="1581021411323" expanded="true" signature="14:19" ph="..." />
               </folding>
             </state>
           </provider>
@@ -163,19 +123,19 @@
       <list>
         <option value="$PROJECT_DIR$/iniclass.py" />
         <option value="$PROJECT_DIR$/IniPair.py" />
-        <option value="$PROJECT_DIR$/IniEnt.py" />
         <option value="$PROJECT_DIR$/global.py" />
         <option value="$PROJECT_DIR$/Logics.py" />
-        <option value="$PROJECT_DIR$/MapFile.py" />
         <option value="$PROJECT_DIR$/globalvar.py" />
+        <option value="$PROJECT_DIR$/MapFile.py" />
+        <option value="$PROJECT_DIR$/IniEnt.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="-16" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="3" />
+    <option name="width" value="1162" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -261,22 +221,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="3" width="1162" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3024911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4002169" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32781458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40728477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32781458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,23 +259,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global.py" />
-    <entry file="file://$PROJECT_DIR$/MapFile.py">
+    <entry file="file://$PROJECT_DIR$/globalvar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iniclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1582628349599" expanded="true" signature="76:81" ph="..." />
-            <marker date="1582628349599" expanded="true" signature="76:186" ph="..." />
-            <marker date="1582628349599" expanded="true" signature="2566:2572" ph="..." />
+            <marker date="1581010344755" expanded="true" signature="60:65" ph="..." />
+            <marker date="1581010344755" expanded="true" signature="84:119" ph="..." />
+            <marker date="1581010344755" expanded="true" signature="382:1243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IniEnt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1582696952945" expanded="true" signature="30:35" ph="..." />
+            <marker date="1582696952945" expanded="true" signature="366:412" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IniPair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1581021411323" expanded="true" signature="14:19" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Logics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        <state>
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <marker date="1582624949514" expanded="true" signature="41:46" ph="..." />
             <marker date="1582624949514" expanded="true" signature="41:321" ph="..." />
@@ -328,52 +315,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iniclass.py">
+    <entry file="file://$PROJECT_DIR$/MapFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="544">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
           <folding>
-            <marker date="1581010344755" expanded="true" signature="60:65" ph="..." />
-            <marker date="1581010344755" expanded="true" signature="84:119" ph="..." />
-            <marker date="1581010344755" expanded="true" signature="382:1243" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1582696900379" expanded="true" signature="76:81" ph="..." />
+            <marker date="1582696900379" expanded="true" signature="76:186" ph="..." />
+            <marker date="1582696900379" expanded="true" signature="2593:2599" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IniEnt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1581069570400" expanded="true" signature="30:35" ph="..." />
-            <marker date="1581069570400" expanded="true" signature="361:407" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IniPair.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-          <folding>
-            <marker date="1581021411323" expanded="true" signature="14:19" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/globalvar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        <state relative-caret-position="595">
+          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+            <marker date="1582716842779" expanded="true" signature="5374:5494" ph="..." />
           </folding>
         </state>
       </provider>

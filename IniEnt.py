@@ -6,7 +6,7 @@ class IniEnt:
     Name = ""
 
     def __init__(self, ):
-        Name = ""
+        self.Name = ""
         self.__datadict = {}
 
     def AddPair(self, pair, pairname):
