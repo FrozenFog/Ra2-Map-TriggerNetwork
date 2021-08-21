@@ -2,7 +2,6 @@ import globalvar as glob
 
 class Trigger:
 
-    event3 = [60, 61, 77, 80, 81, 82, 86]
     id = ""
     associated = ""
     disabled = False
@@ -47,8 +46,9 @@ class Trigger:
         while (num > 0):
             event = Event()
             event.eventid = int(sl[i])
+            indicator = int(sl[i+1])
             i += 1
-            if event.eventid in self.event3:
+            if indicator == 2:
                 event.parameters = sl[i:i+3]
                 i += 3
             else:
